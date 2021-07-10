@@ -1,0 +1,42 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 5rem;
+  column-gap: 5rem;
+}
+
+.init-link {
+  background-color: #7b7bb3;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #000;
+  transition: background-color, 0.5s;
+}
+
+.init-link:hover {
+  background-color: #4c4c8c;
+}
+
+.init-link a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform, 0.5s;
+}
+
+.init-link a:hover {
+  transform: scale(1.1);
+}
+
+.init-link svg {
+  margin: 1rem;
+}

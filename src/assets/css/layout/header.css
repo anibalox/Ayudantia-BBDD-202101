@@ -1,0 +1,10 @@
+.header {
+  margin: 0;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 3rem 0;
+  background-color: #444c8c;
+  color: #fff;
+}

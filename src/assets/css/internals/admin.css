@@ -1,0 +1,80 @@
+.admin-menu {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create {
+  margin: 2rem auto;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.list-users {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  border: 1px solid #4c4c4c;
+}
+
+.user-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #4c4c4c;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.user div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user p {
+  padding: 0 3rem;
+}
+
+.view {
+  background-color: #5c865c;
+  padding: 0.5rem;
+  transition: all 0.3s;
+}
+
+.view:hover {
+  cursor: pointer;
+  background-color: #6c9d6c;
+}
+
+.edit {
+  background-color: #db8a17;
+  padding: 0.5rem;
+  transition: all 0.3s;
+}
+
+.edit:hover {
+  cursor: pointer;
+  background-color: #ea9f2f;
+}
+
+.delete {
+  background-color: #c62e3e;
+  padding: 0.5rem;
+  transition: all 0.3s;
+}
+
+.delete:hover {
+  cursor: pointer;
+  background-color: #e23447;
+}

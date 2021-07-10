@@ -1,0 +1,14 @@
+.user-data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.user-data p:first-child {
+  text-align: right;
+  padding: 0 5rem;
+}
+
+.user-data p:nth-child(2) {
+  text-align: left;
+  padding: 0 5rem;
+}

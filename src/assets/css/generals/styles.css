@@ -1,0 +1,30 @@
+.text-center {
+  text-align: center;
+}
+
+.message {
+  margin: 2rem 0;
+  padding: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.error {
+  background-color: #c62e3e;
+  transition: all 0.3s;
+}
+
+.error:hover {
+  background-color: #e23447;
+}
+
+.success {
+  background-color: #5c865c;
+  transition: all 0.3s;
+}
+
+.success:hover {
+  background-color: #6c9d6c;
+}

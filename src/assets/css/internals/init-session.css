@@ -1,0 +1,56 @@
+.session-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  border: 1px solid #ccc;
+  padding: 5rem 0;
+  border-radius: 1rem;
+  box-shadow: 0 0 3px #000;
+}
+
+.session-form h3 {
+  margin: 0;
+}
+
+.session-form form {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.session-form__label {
+  font-size: 2rem;
+}
+
+.session-form__input {
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 2px #ccc;
+  outline: none;
+  transition: all 0.3;
+}
+
+.session-form__input:focus {
+  border: 1px solid #7b97b3;
+}
+
+.session-form__submit {
+  margin: 1rem auto;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.session-form__submit:hover {
+  border-radius: 5px;
+  box-shadow: 0 0 2px #000;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-button {
+  display: block;
+  width: 13rem;
+  background-color: #4c4c8c;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  transition: all 0.3s;
+}
+
+.back-button:hover {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2px #000;
+  background-color: #555a95;
+}
